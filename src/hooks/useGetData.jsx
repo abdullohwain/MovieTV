@@ -34,30 +34,3 @@ const useGetData = function({ showModal }) {
 
 
 export default useGetData;
-
-
-//   const getData = async () => {
-//     setLoading(true)
-//     try {
-//       const response = await fetch(URL);
-
-//       if (!response.ok) {
-//         throw new Error("Qandaydir hatolik bor!");
-//       }
-//       const data = await response.json();
-
-//       setData(data);
-//     }catch (error) {
-//         setError(error.message);
-//     } finally {
-//         setLoading(false)
-//     }
-//   }
-//   useEffect(() => {
-//     getData()
-//   }, [])
-//   return { data, loading, error };
-// };
-
-
-//  export default useGetData;
